@@ -8,7 +8,6 @@ const ItemsSection = () => {
             .then(res => res.json())
             .then(data => setLunchItems(data))
     }, [])
-    console.log(lunchItems);
     return (
         <div className=''>
             <div className="container">
