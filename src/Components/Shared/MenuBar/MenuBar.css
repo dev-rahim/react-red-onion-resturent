@@ -1,4 +1,7 @@
-.menuBar {}
+.menuBar {
+    background-color: white;
+    width: 100%;
+}
 
 .menubar-img-cintainer {
     width: 150px;

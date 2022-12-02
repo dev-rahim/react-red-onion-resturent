@@ -17,11 +17,11 @@ const ItemsSection = () => {
                     <button className='items-btn items-active'>Lunch</button>
                     <button className='items-btn'>Dinner</button>
                 </div>
-                <div className="container items-container">
+                <div className="items-container">
                     <div className="row">
                         {
-                            lunchItems.map(lunchItem => <div className=' col-lg-4 col-xl-4'>
-                                <div className="lunch-item w-100 p-3 m-3">
+                            lunchItems.map(lunchItem => <div className=' col-lg-4 col-md-6 col-12 col-xl-4'>
+                                <div className="lunch-item p-3 m-3 rounded-2">
                                     <img src={lunchItem.image} alt="" />
                                     <h4>{lunchItem.name}</h4>
                                     <p>{lunchItem.description}</p>
@@ -29,7 +29,9 @@ const ItemsSection = () => {
                             </div>)
                         }
                     </div>
-                </div>
+                </div><br />
+
+                <button className="btn btn-dark w-25" type="button">Checkout Your Food</button>
             </div>
         </div>
     );

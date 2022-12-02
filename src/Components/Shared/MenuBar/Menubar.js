@@ -10,7 +10,7 @@ const Menubar = () => {
 
     return (
         <div>
-            <nav className="menuBar navbar navbar-expand-lg bg-light">
+            <nav className="menuBar navbar navbar-expand-lg bg-transparent">
                 <div className="container d-flex">
                     <a className="navbar-brand menubar-img-cintainer" href="#">
                         <img className='w-100 h-100' src={MenubarLogo} alt="" />
