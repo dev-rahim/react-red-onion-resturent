@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import './About.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faBus, faBell, faTruck } from '@fortawesome/free-solid-svg-icons';
+library.add(faBus, faBell, faTruck);
 
 
 const About = () => {
@@ -24,7 +28,7 @@ const About = () => {
                             <img className='img-fluid' src={cart.image} alt="" />
                             <div className="row ">
                                 <div className="icon col-md-2">
-                                    <p>hlw</p>
+                                    <p className='rounded-circle p-3 bg-info'><FontAwesomeIcon icon={cart.icon} /></p>
                                 </div>
                                 <div className="text-start cart-content col-md-10">
                                     <h5>{cart.title}</h5>
