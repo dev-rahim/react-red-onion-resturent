@@ -10,27 +10,27 @@ const Menubar = () => {
 
     return (
         <div>
-            <nav class="menuBar navbar navbar-expand-lg bg-light">
-                <div class="container d-flex">
-                    <a class="navbar-brand menubar-img-cintainer" href="#">
+            <nav className="menuBar navbar navbar-expand-lg bg-light">
+                <div className="container d-flex">
+                    <a className="navbar-brand menubar-img-cintainer" href="#">
                         <img className='w-100 h-100' src={MenubarLogo} alt="" />
                     </a>
                     <div className="">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item ms-4">
-                                    <a class="nav-link active" aria-current="page" href="#">
+                        <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li className="nav-item ms-4">
+                                    <a className="nav-link active" aria-current="page" href="#">
                                         <FontAwesomeIcon icon="fa-cart-shopping" />
                                     </a>
                                 </li>
-                                <li class="nav-item ms-4">
-                                    <a class="nav-link " href="#">Login</a>
+                                <li className="nav-item ms-4">
+                                    <a className="nav-link " href="#">Login</a>
                                 </li>
-                                <li class="nav-item ms-4">
-                                    <button class="signout-btn btn nav-link rounded-5  px-3 py-1">Sign up</button>
+                                <li className="nav-item ms-4">
+                                    <button className="signout-btn btn nav-link rounded-5  px-3 py-1">Sign up</button>
                                 </li>
                             </ul>
 
