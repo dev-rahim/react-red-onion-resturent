@@ -1,0 +1,12 @@
+.items-btn {
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.items-active {
+    color: deeppink;
+    border-bottom: 1px solid deeppink;
+}
+
