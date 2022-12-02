@@ -1,0 +1,16 @@
+.menuBar {}
+
+.menubar-img-cintainer {
+    width: 150px;
+}
+
+.signout-btn {
+    background-color: #f91944;
+    color: white;
+    text-decoration: none;
+}
+
+.signout-btn:hover {
+    color: black;
+    border: 1px solid #f91944;
+}
