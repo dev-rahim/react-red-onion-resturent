@@ -24,16 +24,18 @@ const About = () => {
                 </div>
                 <div className="about-carts row">
                     {
-                        aboutItems.map(cart => <div className='col-md-4'>
-                            <img className='img-fluid' src={cart.image} alt="" />
-                            <div className="row ">
-                                <div className="icon col-md-2">
-                                    <p className='rounded-circle p-3 bg-info'><FontAwesomeIcon icon={cart.icon} /></p>
-                                </div>
-                                <div className="text-start cart-content col-md-10">
-                                    <h5>{cart.title}</h5>
-                                    <p className=''>{cart.description}</p>
-                                    <a className='d-inline link-info nav-link' href="http://">See more</a>
+                        aboutItems.map(cart => <div className=' col-md-4'>
+                            <div className="about-cart">
+                                <img className='img-fluid' src={cart.image} alt="" />
+                                <div className="row">
+                                    <div className="icon  col-md-2">
+                                        <FontAwesomeIcon icon='fa-solid fa-coffee' />
+                                    </div>
+                                    <div className="text-start cart-content col-md-10">
+                                        <h5>{cart.title}</h5>
+                                        <p className=''>{cart.description}</p>
+                                        <a className='d-inline link-info nav-link' href="http://">See more</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>)

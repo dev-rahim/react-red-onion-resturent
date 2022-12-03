@@ -1,0 +1,15 @@
+.Register-from input {
+    outline: none;
+    border: none;
+    background-color: #F5F5F5;
+}
+
+.Register-from {
+    width: 35%;
+}
+
+.Register-from input:last-child {
+    background-color: deeppink;
+    color: white;
+    font-weight: 600;
+}
